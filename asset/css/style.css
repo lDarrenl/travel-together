@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.voyage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff7f61;
+    padding: 3rem;
+}
+
+.voyage h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.voyage p {
+    color: #fff;
+}
+.voyage-image {
+width: auto;
+height: 20%;
+}
+.voyage button {
+    padding: 0.8rem 1.5rem;
+    background-color: #fff;
+    border: none;
+    color: #ff7f61;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.services, .features {
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.service-cards, .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.service-card, .feature-card {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.service-card h3, .feature-card h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: #ff7f61;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.cta {
+    background-color: #ff7f61;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cta button {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: none;
+    color: #ff7f61;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    width: 24px;
+    margin: 0 0.5rem;
+}
